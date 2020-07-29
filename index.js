@@ -38,6 +38,7 @@ app.post("/upload", upload.single("file"), async (req, res) => {
       a.cvss,
       a.title,
       a.Vulnerability,
+      
       a.Solution,
       a.reference,
     ]);
